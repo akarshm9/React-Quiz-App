@@ -1,0 +1,45 @@
+{
+    "questions": [
+      {
+        "question": "What does JSON stand for?",
+        "answer": "JavaScript Object Notation"
+      },
+      {
+        "question": "What does BSON stand for?",
+        "answer": "Binary JavaScript Notation"
+      },
+      {
+        "question": "Which programming language is faster in comparison to Java, Pythpn and C?",
+        "answer": "C"
+      },
+      {
+        "question": "Full form of JAVA?",
+        "answer": "Just Another Virtual Assisstant"
+      },
+      {
+        "question": "Which langauge is mostly used in Web Development?",
+        "answer": "JavaScript"
+      },
+      {
+        "question": "Which langauge is mostly used in DSA?",
+        "answer": "Java"
+      },
+      {
+        "question": "What is the file extension commonly used for JSON files?",
+        "answer": ".json"
+      },
+      { 
+        "question": "MongoDB is which kind of Database?",
+        "answer": "NoSQL"
+      },
+      {
+        "question": "Full form of HTML?",
+        "answer": "Hyper Text Markup Language"
+      },
+      {
+        "question": "Full form of CSS?",
+        "answer": "Cascading Style Sheets"
+      }
+    ]
+  }
+  

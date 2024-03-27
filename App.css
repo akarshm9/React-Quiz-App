@@ -1,0 +1,135 @@
+#page {
+  width: 80vw;
+  height: 8vh;
+  background-color: white;
+  border: 2px solid red;
+  color: black;
+
+}
+
+button {
+  width: auto;
+  height: 4vh;
+  background-color: darkred;
+  color: white;
+  font-family: algerian;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#submit {
+
+  width: auto;
+  height: 5vh;
+  background-color: darkred;
+  color: white;
+  font-family: algerian;
+  border-radius: 5px;
+  margin: 5px;
+
+}
+
+nav {
+  background-color: green;
+  height: 6vh;
+  padding: 2vw;
+
+}
+
+span {
+  color: white;
+  padding: 7px;
+}
+
+span:hover,
+a:hover {
+  border: 2px solid white;
+  text-decoration: underline;
+}
+
+h1 {
+
+  color: white;
+}
+
+.answerBlock {
+  margin: 8px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+
+}
+
+div {
+  gap: 7px;
+}
+
+@media screen and (max-width:500px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #page {
+    width: 80vw;
+    height: 7vh;
+
+  }
+
+  nav {
+    width: 100vw;
+    height: 8vh;
+  }
+
+  .block {
+    width: 100vw;
+    height: auto;
+  }
+
+  #area {
+    width: 80vw;
+    display: block;
+    height: auto;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .answerBlock {
+    display: block;
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  /* .container {
+    width: 90vw;
+    font-size: small;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  } */
+
+  .box {
+    width: 30vw;
+    height: 5vh;
+  }
+}
+
+.box {
+  width: 18vw;
+  height: 7vh;
+  margin: 5px;
+  overflow: scroll;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.red {
+  color: red;
+}

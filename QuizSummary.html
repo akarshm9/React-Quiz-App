@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${name'}`s quiz summary</title>
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            display: flex;
+            justify-items: baseline;
+            align-items: center;
+            width: 35vw;
+            height: 25vh;
+            background-color: white;
+            border: 1px solid grey;
+            color: black;
+        }
+        @media screen and (max-width:550px) {
+            .card{
+                width: auto;
+                height: 28vh;
+                padding: 7px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        Name : <span style="text-transform: capitalize;">${name}</span> <br>
+        Total Attempted Questions: <br>
+        Wrong Answers: <br>
+        Right Answers:
+    </div>
+</body>
+</html>
